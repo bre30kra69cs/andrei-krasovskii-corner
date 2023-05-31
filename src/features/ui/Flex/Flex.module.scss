@@ -1,0 +1,176 @@
+.Flex {
+  display: flex;
+  flex-direction: column;
+
+  &__dir {
+    &-col {
+      flex-direction: column;
+    }
+
+    &-row {
+      flex-direction: row;
+    }
+
+    &-reverse {
+      &-col {
+        flex-direction: column-reverse;
+      }
+
+      &-row {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  &__justify {
+    &-start {
+      justify-content: flex-start;
+    }
+
+    &-center {
+      justify-content: center;
+    }
+
+    &-end {
+      justify-content: flex-end;
+    }
+
+    &-between {
+      justify-content: space-between;
+    }
+  }
+
+  &__align {
+    &-start {
+      align-items: flex-start;
+    }
+
+    &-center {
+      align-items: center;
+    }
+
+    &-end {
+      align-items: flex-end;
+    }
+
+    &-stretch {
+      align-items: stretch;
+    }
+  }
+
+  &__self {
+    &-start {
+      align-self: flex-start;
+    }
+
+    &-center {
+      align-self: center;
+    }
+
+    &-end {
+      align-self: flex-end;
+    }
+
+    &-stretch {
+      align-self: stretch;
+    }
+  }
+
+  &__grow {
+    &-s {
+      flex-grow: 1;
+    }
+
+    &-m {
+      flex-grow: 2;
+    }
+
+    &-l {
+      flex-grow: 3;
+    }
+
+    &-no {
+      flex-grow: 0;
+    }
+  }
+
+  &__shrink {
+    &-s {
+      flex-shrink: 1;
+    }
+
+    &-no {
+      flex-shrink: 0;
+    }
+  }
+
+  &__wrap {
+    &-wrap {
+      flex-wrap: wrap;
+    }
+
+    &-no {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__base {
+    &-0 {
+      flex-basis: 0;
+    }
+
+    &-25 {
+      flex-basis: 25%;
+    }
+
+    &-33 {
+      flex-basis: 33%;
+    }
+
+    &-50 {
+      flex-basis: 50%;
+    }
+
+    &-66 {
+      flex-basis: 66%;
+    }
+
+    &-75 {
+      flex-basis: 75%;
+    }
+
+    &-100 {
+      flex-basis: 100%;
+    }
+  }
+
+  &__gap {
+    &-xxs {
+      gap: 1px;
+    }
+
+    &-xs {
+      gap: 2px;
+    }
+
+    &-s {
+      gap: 4px;
+    }
+
+    &-m {
+      gap: 8px;
+    }
+
+    &-l {
+      gap: 16px;
+    }
+
+    &-xl {
+      gap: 24px;
+    }
+
+    &-xxl {
+      gap: 32px;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export {throwup} from './throwup';

@@ -1,0 +1,12 @@
+.Main {
+  position: sticky;
+  top: 0;
+  height: 40px;
+  padding: 0 12px;
+
+  &--title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

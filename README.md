@@ -1,6 +1,6 @@
 # andrei-krasovskii-corner
 
-Andrei Krasovskii blog
+Andrei Krasovskii Blog
 
 ## Getting Started
 

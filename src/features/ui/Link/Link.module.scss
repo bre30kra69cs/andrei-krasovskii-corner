@@ -1,0 +1,22 @@
+.Main {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 16px;
+
+  &__size {
+    &-s {
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &-m {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &-l {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
